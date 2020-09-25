@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Float and Align</title>
+		<style>
+            * {
+                box-sizing: border-box;
+            }
+			.container {
+				max-width: 960px;
+				margin: 30px auto;
+			}
+            .clr {
+                clear: both;
+            }
+            .box {
+                border: 1px grey solid;
+                padding: 10px;
+                margin: 10px;
+            }
+
+			.box p {
+				/* Text Align */
+				text-align: left;
+                /* text-align: right; */
+			}
+            #box-2 {
+                float: left;
+                width: 65%; 
+            }
+            #box-3 {
+                float: right;
+                width: 30%; 
+            }
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div id="box-1" class="box">
+				<h3>Heading</h3>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore atque,</p>
+			</div>
+			<div id="box-2" class="box">
+				<h3>Heading</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore atque, ab consectetur veniam aut
+					iure delectus maxime iste, cum explicabo repudiandae dolor. Officiis atque sint quia omnis ipsum?
+					Minus?
+				</p>
+			</div>
+			<div id="box-3" class="box">
+				<h3>Heading</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore atque, ab consectetur veniam aut
+					iure delectus maxime iste, cum explicabo repudiandae dolor. Officiis atque sint quia omnis ipsum?
+					Minus?
+				</p>
+            </div>
+            <div class="clr">
+			<div id="box-4" class="box">
+				<h3>Heading</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolore atque, ab consectetur veniam aut
+					iure delectus maxime iste, cum explicabo repudiandae dolor. Officiis atque sint quia omnis ipsum?
+					Minus?
+				</p>
+            </div>
+        </div>
+		</div>
+	</body>
+</html>
